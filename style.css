@@ -1,0 +1,188 @@
+/*Fonts*/
+
+@font-face {
+  font-family: baby;
+  src:url('Baby Doll.ttf');
+}
+
+@font-face {
+  font-family: roboto;
+  src:url('Roboto-Light.ttf');
+}
+
+/*End Fonts*/
+
+/*Body*/
+
+h1.title {
+  position: absolute;
+  color: purple;
+  font-family: baby;
+  font-size: 80px;
+}
+
+h3.below {
+  position: absolute;
+  color: purple;
+  font-family: baby;
+  font-size: 20px;
+  top: 150px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 404.1px;
+}
+
+.contain {
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+/*End of Body*/
+
+
+/*Navigation*/
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  list-style: none;
+  position: absolute;
+  display: inline;
+  list-style: none;
+  top: 210px;
+  width: 1000px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: purple;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.nav > li {
+  display: inline;
+}
+
+
+ul {
+  text-decoration: none;
+  text-indent: none;
+}
+
+li.who {
+  margin-right: 3em;
+}
+
+li.projects{
+  margin-left: 3em;
+}
+
+li.books {
+  margin-left: 3em;
+}
+
+li.contact {
+  margin-left: 3em;
+}
+
+li.shop{
+  margin-left: 3em;
+  margin-right: 1.2em;
+}
+
+/*End of Navigation*/
+
+
+/*Images*/
+
+.containfour {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+.push {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: purple;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+img.One {
+  width: 350px;
+  height: 500px;
+  margin-left: 2em;
+}
+
+h3.Onetxt {
+  margin-left: 5.4em;
+}
+
+.hold {
+  list-style: none;
+  position: absolute;
+  display: inline;
+  list-style: none;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.Two {
+  width: 420px;
+  height: 380px;
+  margin-left: 23em;
+}
+
+h3.Twotxt {
+  margin-left: 23.2em;
+}
+
+.holdTwo {
+  list-style: none;
+  position: absolute;
+  display: inline;
+  list-style: none;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.Three {
+  width: 420px;
+  height: 380px;
+  margin-left: 45em;
+}
+
+h3.Threetxt {
+  margin-left: 45.2em;
+}
+
+/*End of Images*/
